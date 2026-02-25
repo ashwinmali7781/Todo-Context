@@ -1,16 +1,127 @@
-# React + Vite
+# Todo Context App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **Todo App built using React Context API** that allows users to add, update, delete, and manage tasks efficiently. This project demonstrates state management using **React Context** instead of prop drilling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* ➕ Add new todos
+* ✏️ Edit existing todos
+* ❌ Delete todos
+* ✅ Mark todos as completed
+* 📦 Global state management using Context API
+* ⚡ Fast and lightweight UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Context API
+* JavaScript (ES6+)
+* Tailwind CSS 
+* Vite
+
+---
+
+## 📂 Project Structure
+
+```
+Todo-Context/
+│
+├── src/
+│   ├── components/
+│   │   ├── TodoForm.jsx
+│   │   ├── TodoItem.jsx
+│   │
+│   ├── context/
+│   │   └── TodoContext.js
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ashwinmali7781/Todo-Context.git
+```
+
+Go to project folder:
+
+```bash
+cd Todo-Context
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+---
+
+## 📚 Learning Objectives
+
+This project helps to understand:
+
+* React Context API
+* State Management
+* Component Structure
+* React Hooks
+* Clean Code Structure
+
+---
+
+## 👨‍💻 Author
+
+**Ashwin Mali**
+
+GitHub:
+https://github.com/ashwinmali7781
+
+---
+
+## ⭐ Contribute
+
+Contributions are welcome!
+
+1. Fork the project
+2. Create your feature branch
+
+```
+git checkout -b feature/NewFeature
+```
+
+3. Commit changes
+
+```
+git commit -m "Add New Feature"
+```
+
+4. Push to branch
+
+```
+git push origin feature/NewFeature
+```
+
+5. Open a Pull Request
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
